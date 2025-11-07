@@ -1,15 +1,23 @@
-/* .btn{
-    animation: btn 0.5s infinite ease;
+.menu.active{
+    display: block;
+    transition: all 0.3s ease;
 }
 
-@keyframes btn {
-    0%{
-        transform: translateY();
-    }
-    50%{
-        transform: translateY(-3px);
-    }
-    100%{
-        transform: translateY(-5px);
-    }
-} */
+
+.hamburger span{
+    transition: all 0.3s ease;
+}
+
+.hamburger.active span:nth-child(1){
+    transition: 0.3s;
+    transform: rotate(45deg) translate(5px,7px);
+}
+
+.hamburger.active span:nth-child(2){
+    opacity: 0;
+}
+
+.hamburger.active span:nth-child(3){
+    transition: 0.3s;
+    transform: rotate(-45deg) translate(7px,-9px);
+}
