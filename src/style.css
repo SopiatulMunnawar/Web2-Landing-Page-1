@@ -1,0 +1,15 @@
+/* .btn{
+    animation: btn 0.5s infinite ease;
+}
+
+@keyframes btn {
+    0%{
+        transform: translateY();
+    }
+    50%{
+        transform: translateY(-3px);
+    }
+    100%{
+        transform: translateY(-5px);
+    }
+} */
